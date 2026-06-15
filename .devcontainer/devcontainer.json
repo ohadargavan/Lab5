@@ -1,0 +1,12 @@
+{
+  "name": "C 32-bit Environment",
+  "image": "mcr.microsoft.com/devcontainers/cpp:ubuntu-22.04",
+  "postCreateCommand": "sudo apt-get update && sudo apt-get install -y gcc-multilib build-essential make",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "ms-vscode.cpptools"
+      ]
+    }
+  }
+}
